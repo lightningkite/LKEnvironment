@@ -6,15 +6,15 @@
 //  Copyright (c) 2016 Lightning Kite. All rights reserved.
 //
 
-class Environment {
+public class Environment {
 	private static let currentEnvironment = Environment()
 	private var _environmentDict: [String : AnyObject]? = nil
 	
-	static var envDescription: String {
+	public static var envDescription: String {
 		return Environment.environmentDict["description"] as? String ?? ""
 	}
 	
-	static var environmentDict: [String : AnyObject] {
+	public static var environmentDict: [String : AnyObject] {
 		if currentEnvironment._environmentDict != nil {
 			return currentEnvironment._environmentDict!
 		}
