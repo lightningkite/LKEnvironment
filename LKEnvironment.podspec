@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LKEnvironment"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Multiple build environments"
   s.description      = "Makes multiple build environments easy"
   s.homepage         = "https://github.com/Lightningkite/LKEnvironment"
