@@ -1,6 +1,5 @@
 # LKEnvironment
 
-[![CI Status](http://img.shields.io/travis/Erik Sargent/LKEnvironment.svg?style=flat)](https://travis-ci.org/Erik Sargent/LKEnvironment)
 [![Version](https://img.shields.io/cocoapods/v/LKEnvironment.svg?style=flat)](http://cocoapods.org/pods/LKEnvironment)
 [![License](https://img.shields.io/cocoapods/l/LKEnvironment.svg?style=flat)](http://cocoapods.org/pods/LKEnvironment)
 [![Platform](https://img.shields.io/cocoapods/p/LKEnvironment.svg?style=flat)](http://cocoapods.org/pods/LKEnvironment)
