@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACDB114F70DEFF565FB4B63E8F97A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2AA5418388DA1C11349B33E1716B6EE8 /* Pods-LKEnvironment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B54DEA8B00FF0750BB3308B436535 /* Pods-LKEnvironment_Tests-dummy.m */; };
+		55984391AA8D7DEA34E91552C57C5603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AD722A8506418C370A0CF99D6BB46F61 /* LKEnvironment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 323B7C72665B4B78EAF2415A233DACEE /* LKEnvironment.bundle */; };
+		B102F53B8EB5235D00B7EC8DEFE84EC1 /* LKEnvironment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1773E673C19F4861C7B62251D862BDB9 /* LKEnvironment-dummy.m */; };
+		E12F441283D7CB227C0CD20BFFE794BC /* LKEnvironment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FC2B50014C9BD8D0F94E86FCB8B0B0 /* LKEnvironment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E77B93ECEDDA7C18A31817521F1F5AB3 /* Pods-LKEnvironment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D944353DECCDF4906E1B1AA3430AC1C1 /* Pods-LKEnvironment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F256BCFE8019DE0573E97ED38A2F1C66 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E14639CF8D22F0814954BF4EDBEEF4 /* Environment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F89818C854883FD522F05BE7E53D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB971E39DA56EA8ED2E943FC7458BA5D;
+			remoteInfo = LKEnvironment;
+		};
+		961BF647EF6B2FA5772538C509FD8611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D235DDE83243C00756A9301802CE1B;
+			remoteInfo = "LKEnvironment-LKEnvironment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E14639CF8D22F0814954BF4EDBEEF4 /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		02DB079A9E8B7C7ACD2B76CD206E10E1 /* Pods-LKEnvironment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKEnvironment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1773E673C19F4861C7B62251D862BDB9 /* LKEnvironment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKEnvironment-dummy.m"; sourceTree = "<group>"; };
+		217894435390FAE7B616F19A318F8B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FC2B50014C9BD8D0F94E86FCB8B0B0 /* LKEnvironment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKEnvironment-umbrella.h"; sourceTree = "<group>"; };
+		323B7C72665B4B78EAF2415A233DACEE /* LKEnvironment.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKEnvironment.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3628C7C0133B40CEB6AE733D8B5F32A3 /* Pods_LKEnvironment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKEnvironment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKEnvironment.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A4B54DEA8B00FF0750BB3308B436535 /* Pods-LKEnvironment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKEnvironment_Tests-dummy.m"; sourceTree = "<group>"; };
+		625581CA2021007E181577A9B2177AC8 /* Pods-LKEnvironment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKEnvironment_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B5AA25A1570ACA2975F7E397F59B478 /* Pods-LKEnvironment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKEnvironment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCBD18FB9A1904DB0E0B0A4A557BA8D /* LKEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B115834DFF8961BB19B147EBE6207C66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33277A1665B12C3E1CF324CC0763DEC /* Pods-LKEnvironment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKEnvironment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C98418E9EBA0BF5593B23244B3F97ED1 /* LKEnvironment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LKEnvironment.modulemap; sourceTree = "<group>"; };
+		D0FB81DD44ADBBD49E5DA2F58F4622AC /* Pods-LKEnvironment_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKEnvironment_Tests-resources.sh"; sourceTree = "<group>"; };
+		D6FECC8CBB45423A9BC8BB0AA0FFF8AD /* Pods-LKEnvironment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LKEnvironment_Tests.modulemap"; sourceTree = "<group>"; };
+		D944353DECCDF4906E1B1AA3430AC1C1 /* Pods-LKEnvironment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKEnvironment_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E36D9DBB3420D52C9E0C05CFFDEE2C98 /* Pods-LKEnvironment_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKEnvironment_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FC184026BBB37AA7E6B598699785EB43 /* LKEnvironment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKEnvironment-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15706AB6A8C665A5C34C440B1D5F2D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55984391AA8D7DEA34E91552C57C5603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B76EBF1C3AC35421737DC0B9F5C86D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACDB114F70DEFF565FB4B63E8F97A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F11C75320B4BB8B66FC2EA4F6FCB63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA60162CE34FE888F828CB3364B5057 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1404E90097A42024B0C3805796389 /* Pods-LKEnvironment_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		28086866552BC534AB7941959A19B0C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01E14639CF8D22F0814954BF4EDBEEF4 /* Environment.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A923EAEF0C135CC1D41C28D6ADBCB5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28086866552BC534AB7941959A19B0C6 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6814907803A271A977818018F190D3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323B7C72665B4B78EAF2415A233DACEE /* LKEnvironment.bundle */,
+				AFCBD18FB9A1904DB0E0B0A4A557BA8D /* LKEnvironment.framework */,
+				3628C7C0133B40CEB6AE733D8B5F32A3 /* Pods_LKEnvironment_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6886A98411A3AA589E87E3D1D80EA8AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				217894435390FAE7B616F19A318F8B34 /* Info.plist */,
+				C98418E9EBA0BF5593B23244B3F97ED1 /* LKEnvironment.modulemap */,
+				39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */,
+				1773E673C19F4861C7B62251D862BDB9 /* LKEnvironment-dummy.m */,
+				FC184026BBB37AA7E6B598699785EB43 /* LKEnvironment-prefix.pch */,
+				28FC2B50014C9BD8D0F94E86FCB8B0B0 /* LKEnvironment-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LKEnvironment";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				D4F3EABE72E1225D08A384DD25311E6E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6814907803A271A977818018F190D3BC /* Products */,
+				1EA60162CE34FE888F828CB3364B5057 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0A49EDE0ACE5702BB2A81889297ED0F /* LKEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				5A923EAEF0C135CC1D41C28D6ADBCB5D /* Pod */,
+				6886A98411A3AA589E87E3D1D80EA8AC /* Support Files */,
+			);
+			name = LKEnvironment;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D4F3EABE72E1225D08A384DD25311E6E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A49EDE0ACE5702BB2A81889297ED0F /* LKEnvironment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D7A1404E90097A42024B0C3805796389 /* Pods-LKEnvironment_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B115834DFF8961BB19B147EBE6207C66 /* Info.plist */,
+				D6FECC8CBB45423A9BC8BB0AA0FFF8AD /* Pods-LKEnvironment_Tests.modulemap */,
+				02DB079A9E8B7C7ACD2B76CD206E10E1 /* Pods-LKEnvironment_Tests-acknowledgements.markdown */,
+				B33277A1665B12C3E1CF324CC0763DEC /* Pods-LKEnvironment_Tests-acknowledgements.plist */,
+				5A4B54DEA8B00FF0750BB3308B436535 /* Pods-LKEnvironment_Tests-dummy.m */,
+				E36D9DBB3420D52C9E0C05CFFDEE2C98 /* Pods-LKEnvironment_Tests-frameworks.sh */,
+				D0FB81DD44ADBBD49E5DA2F58F4622AC /* Pods-LKEnvironment_Tests-resources.sh */,
+				D944353DECCDF4906E1B1AA3430AC1C1 /* Pods-LKEnvironment_Tests-umbrella.h */,
+				9B5AA25A1570ACA2975F7E397F59B478 /* Pods-LKEnvironment_Tests.debug.xcconfig */,
+				625581CA2021007E181577A9B2177AC8 /* Pods-LKEnvironment_Tests.release.xcconfig */,
+			);
+			name = "Pods-LKEnvironment_Tests";
+			path = "Target Support Files/Pods-LKEnvironment_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84D414FA6668DA7A2FCADEF8A869E010 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77B93ECEDDA7C18A31817521F1F5AB3 /* Pods-LKEnvironment_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B924040DC661896C275BC3C328B1FF7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12F441283D7CB227C0CD20BFFE794BC /* LKEnvironment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AC320E73FCB09D00E09D3D129728E70 /* Pods-LKEnvironment_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA10269C94B820D725A3297A2C8DAEA /* Build configuration list for PBXNativeTarget "Pods-LKEnvironment_Tests" */;
+			buildPhases = (
+				C006A2898F15D76C2A240BB04F178705 /* Sources */,
+				2B76EBF1C3AC35421737DC0B9F5C86D0 /* Frameworks */,
+				84D414FA6668DA7A2FCADEF8A869E010 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BDACC3304C20262C9548610F7C85632 /* PBXTargetDependency */,
+			);
+			name = "Pods-LKEnvironment_Tests";
+			productName = "Pods-LKEnvironment_Tests";
+			productReference = 3628C7C0133B40CEB6AE733D8B5F32A3 /* Pods_LKEnvironment_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59D235DDE83243C00756A9301802CE1B /* LKEnvironment-LKEnvironment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8225336F51A7B7CAFB3C325E855F961 /* Build configuration list for PBXNativeTarget "LKEnvironment-LKEnvironment" */;
+			buildPhases = (
+				CF92EE295D9DB53BC1599545DFE20295 /* Sources */,
+				E6F11C75320B4BB8B66FC2EA4F6FCB63 /* Frameworks */,
+				CDD22089E833B2242AE9AC341691E2F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LKEnvironment-LKEnvironment";
+			productName = "LKEnvironment-LKEnvironment";
+			productReference = 323B7C72665B4B78EAF2415A233DACEE /* LKEnvironment.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FB971E39DA56EA8ED2E943FC7458BA5D /* LKEnvironment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A7C472091311451B4AE09B1521DB5B /* Build configuration list for PBXNativeTarget "LKEnvironment" */;
+			buildPhases = (
+				1CB56A0C890B34E1F734B3E54D120210 /* Sources */,
+				15706AB6A8C665A5C34C440B1D5F2D77 /* Frameworks */,
+				2128F917D981CA7911C440FAF8B33F58 /* Resources */,
+				B924040DC661896C275BC3C328B1FF7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E9D36CC52668924942BCCC772FDB26A /* PBXTargetDependency */,
+			);
+			name = LKEnvironment;
+			productName = LKEnvironment;
+			productReference = AFCBD18FB9A1904DB0E0B0A4A557BA8D /* LKEnvironment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6814907803A271A977818018F190D3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB971E39DA56EA8ED2E943FC7458BA5D /* LKEnvironment */,
+				59D235DDE83243C00756A9301802CE1B /* LKEnvironment-LKEnvironment */,
+				3AC320E73FCB09D00E09D3D129728E70 /* Pods-LKEnvironment_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2128F917D981CA7911C440FAF8B33F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD722A8506418C370A0CF99D6BB46F61 /* LKEnvironment.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD22089E833B2242AE9AC341691E2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB56A0C890B34E1F734B3E54D120210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F256BCFE8019DE0573E97ED38A2F1C66 /* Environment.swift in Sources */,
+				B102F53B8EB5235D00B7EC8DEFE84EC1 /* LKEnvironment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C006A2898F15D76C2A240BB04F178705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA5418388DA1C11349B33E1716B6EE8 /* Pods-LKEnvironment_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF92EE295D9DB53BC1599545DFE20295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E9D36CC52668924942BCCC772FDB26A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LKEnvironment-LKEnvironment";
+			target = 59D235DDE83243C00756A9301802CE1B /* LKEnvironment-LKEnvironment */;
+			targetProxy = 961BF647EF6B2FA5772538C509FD8611 /* PBXContainerItemProxy */;
+		};
+		4BDACC3304C20262C9548610F7C85632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKEnvironment;
+			target = FB971E39DA56EA8ED2E943FC7458BA5D /* LKEnvironment */;
+			targetProxy = 94F89818C854883FD522F05BE7E53D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C663ABA074163B94CD2C5B4D30A1FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LKEnvironment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		68145F0BB0EC0337AF309AB98ABE0731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKEnvironment/LKEnvironment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKEnvironment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKEnvironment/LKEnvironment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LKEnvironment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8585E98F40B647AA65B3619F8BAEAF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LKEnvironment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A89EED1EAEB642E0B179CBD43CC94245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625581CA2021007E181577A9B2177AC8 /* Pods-LKEnvironment_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKEnvironment_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKEnvironment_Tests/Pods-LKEnvironment_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LKEnvironment_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABB8162EF60CD403A446F3FF75C32B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E8EC1861D9DC300D89B943B6D626A4 /* LKEnvironment.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKEnvironment/LKEnvironment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKEnvironment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKEnvironment/LKEnvironment.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LKEnvironment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBFD6354DFF2F568449CAAEF2C3CCC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5AA25A1570ACA2975F7E397F59B478 /* Pods-LKEnvironment_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKEnvironment_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKEnvironment_Tests/Pods-LKEnvironment_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LKEnvironment_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA10269C94B820D725A3297A2C8DAEA /* Build configuration list for PBXNativeTarget "Pods-LKEnvironment_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFD6354DFF2F568449CAAEF2C3CCC3C /* Debug */,
+				A89EED1EAEB642E0B179CBD43CC94245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A7C472091311451B4AE09B1521DB5B /* Build configuration list for PBXNativeTarget "LKEnvironment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68145F0BB0EC0337AF309AB98ABE0731 /* Debug */,
+				ABB8162EF60CD403A446F3FF75C32B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8225336F51A7B7CAFB3C325E855F961 /* Build configuration list for PBXNativeTarget "LKEnvironment-LKEnvironment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8585E98F40B647AA65B3619F8BAEAF70 /* Debug */,
+				5C663ABA074163B94CD2C5B4D30A1FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

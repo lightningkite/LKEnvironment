@@ -1,0 +1,14 @@
+PODS:
+  - LKEnvironment (0.1.0)
+
+DEPENDENCIES:
+  - LKEnvironment (from `../`)
+
+EXTERNAL SOURCES:
+  LKEnvironment:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LKEnvironment: 8470322f5ecd9e31473ba4cbcdc43044d1fd3ecc
+
+COCOAPODS: 0.39.0

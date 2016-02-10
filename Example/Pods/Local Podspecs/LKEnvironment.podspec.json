@@ -1,0 +1,25 @@
+{
+  "name": "LKEnvironment",
+  "version": "0.1.0",
+  "summary": "A short description of LKEnvironment.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LKEnvironment",
+  "license": "MIT",
+  "authors": {
+    "Erik Sargent": "erik@lightningkite.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LKEnvironment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LKEnvironment": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
